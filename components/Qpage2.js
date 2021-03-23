@@ -1,26 +1,18 @@
 import React from 'react';
 import { View, Text , StyleSheet, TextInput} from 'react-native';
 
-const Home = () =>{
+const Qpage2 = () =>{
     return(
         <View>
-            <View className = "Q1">
-                <Text style = {[styles.textStyle, {paddingTop: 20}]}>Normal start sleep time?</Text>
+            <View className = "Q4">
+                <Text style = {[styles.textStyle, {paddingTop: 40}]}>What's your height?</Text>
                 <TextInput style = {styles.input}  
                     placeholder = "Type Here" 
                     placeholderTextColor = 'rgba(255,255,255,0.7)' 
                     returnKeyType="go"
                     />
             </View>
-            <View className = "Q2">
-                <Text style = {[styles.textStyle, {paddingTop: 20}]}>What's your height?</Text>
-                <TextInput style = {styles.input}  
-                    placeholder = "Type Here" 
-                    placeholderTextColor = 'rgba(255,255,255,0.7)' 
-                    returnKeyType="go"
-                    />
-            </View>
-            <View className = "Q3">
+            <View className = "Q5">
                 <Text style = {[styles.textStyle, {paddingTop: 20}]}>What's your weight?</Text>
                 <TextInput style = {styles.input}  
                     placeholder = "Type Here" 
@@ -28,7 +20,7 @@ const Home = () =>{
                     returnKeyType="go"
                     />
             </View> 
-            <View className = "Q4">
+            <View className = "Q6">
                 <Text style = {[styles.textStyle, {paddingTop: 20}]}>What's your gender?</Text>
                 <TextInput style = {styles.input}  
                     placeholder = "Type Here" 
@@ -57,4 +49,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default Home;
+export default Qpage2;
